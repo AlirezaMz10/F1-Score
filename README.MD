@@ -7,16 +7,17 @@ This project implements a simple Python script to compute the F1 score, a key pe
 The script uses the following formulae to compute the evaluation metrics:
 
 - **Accuracy**:  
-  $$ \frac{TP + TN}{TP + FP + TN + FN} $$
+  \[ \frac{TP + TN}{TP + FP + TN + FN} \]
 
 - **Precision**:  
-  $$ \frac{TP}{TP + FP} $$
+  \[ \frac{TP}{TP + FP} \]
 
 - **Recall**:  
-  $$ \frac{TP}{TP + FN} $$
+  \[ \frac{TP}{TP + FN} \]
 
 - **F1 Score**:  
-  $$ 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} $$
+  \[ 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]
+
 
 ## Implementation
 The script is implemented using `numpy` for efficient array operations.
